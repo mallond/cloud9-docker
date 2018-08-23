@@ -15,6 +15,9 @@ This repository contains Dockerfile of Cloud9 IDE for Docker's automated build p
 # Base Docker Image
 [kdelfour/supervisor-docker](https://registry.hub.docker.com/u/kdelfour/supervisor-docker/)
 
+# This Docker Image
+[mallond/cloud9](https://registry.hub.docker.com/u/mallond/cloud9/)
+
 # Installation
 
 ## Install Docker.
