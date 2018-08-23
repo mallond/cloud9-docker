@@ -27,7 +27,7 @@ This repository contains Dockerfile of Cloud9 IDE for Docker's automated build p
 
 Download automated build from public Docker Hub Registry: docker pull mallond/cloud9
 
-(alternatively, you can build an image from Dockerfile: docker build -t="mallond/cloud9" github.com/mallond/cloud9-docker)
+(alternatively, you can build an image from Dockerfile: docker build -t="mallond/cloud9" github.com/mallond/cloud9)
 
 ## Usage
 
@@ -46,7 +46,7 @@ Get the latest version from github
 
 Build it
 
-    sudo docker build --force-rm=true --tag="$USER/cloud9-docker:latest" .
+    sudo docker build --force-rm=true --tag="$USER/cloud9:latest" .
     
 And run
 
@@ -58,6 +58,8 @@ Enjoy !!
 
 ---
 Official use only;0
+
+On change and test please remember to trigger the Dockerhub automated build. See below trigger. Login to get 'a secret token'
 
 Trigger Automated Dockerhub build
 
