@@ -38,7 +38,18 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # ------------------------------------------------------------------------------
 # Setup other tools
+
+# Install nvm and pm2
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+ENV NVM_DIR=/root/.nvm
+ENV SHIPPABLE_NODE_VERSION=8
+RUN . $HOME/.nvm/nvm.sh \
+    && nvm install $SHIPPABLE_NODE_VERSION \
+    && nvm alias default $SHIPPABLE_NODE_VERSION \
+    && nvm use default \
+    && npm install pm2@latest -g
+
+
 
 # ------------------------------------------------------------------------------
 # Expose ports.

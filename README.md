@@ -1,7 +1,14 @@
 Cloud9 v3 Dockerfile
 =============
 
-modified by David Mallon
+**Modified by David Mallon forked from Kevin Delfour**
+
+**Added needed tools**
+- Node Version Manager (nvm)
+- Node Version 8.x
+- Advanced, production process manager (PM2)
+ 
+
 
 This repository contains Dockerfile of Cloud9 IDE for Docker's automated build published to the public Docker Hub Registry.
 
