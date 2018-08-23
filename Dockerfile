@@ -37,6 +37,10 @@ VOLUME /workspace
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # ------------------------------------------------------------------------------
+# Setup other tools
+RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+
+# ------------------------------------------------------------------------------
 # Expose ports.
 EXPOSE 80
 EXPOSE 3000
