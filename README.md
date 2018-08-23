@@ -25,17 +25,17 @@ Download automated build from public Docker Hub Registry: docker pull kdelfour/c
 
 ## Usage
 
-    docker run -it -d -p 80:80 kdelfour/cloud9-docker
+    docker run -it -d -p 80:80 mallond/cloud9
     
 You can add a workspace as a volume directory with the argument *-v /your-path/workspace/:/workspace/* like this :
 
-    docker run -it -d -p 80:80 -v /your-path/workspace/:/workspace/ kdelfour/cloud9-docker
+    docker run -it -d -p 80:80 -v /your-path/workspace/:/workspace/ mallond/cloud9
     
 ## Build and run with custom config directory
 
 Get the latest version from github
 
-    git clone https://github.com/kdelfour/cloud9-docker
+    git clone https://github.com/mallond/cloud9-docker
     cd cloud9-docker/
 
 Build it
