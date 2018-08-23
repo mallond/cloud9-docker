@@ -55,3 +55,12 @@ And run
 Enjoy !!    
 
 [**dba Bizrez.com @2007**](https://bizrez.com)
+
+---
+Official use only;0
+
+Trigger Automated Dockerhub build
+
+curl -H "Content-Type: application/json" --data '{"build": true}' -X POST https://registry.hub.docker.com/u/mallond/cloud9/trigger/[a secret token/
+
+
