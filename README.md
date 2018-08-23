@@ -9,7 +9,7 @@ Cloud9 v3 Dockerfile - Node, NVM, and PM2 Enabled
 - Advanced, production process manager (PM2)
 
 ------------------------------------------
->> News: Now integrated with AWS Cloud9 
+> News: Now integrated with AWS Cloud9 
 ------------------------------------------ 
 
 
