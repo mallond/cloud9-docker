@@ -1,4 +1,4 @@
-Cloud9 v3 Dockerfile
+Cloud9 v3 Dockerfile - Node, NVM, and PM2 Enabled
 =============
 
 **Modified by David Mallon forked from Kevin Delfour**
