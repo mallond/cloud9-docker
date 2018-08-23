@@ -22,9 +22,9 @@ This repository contains Dockerfile of Cloud9 IDE for Docker's automated build p
 
 ## Install Docker.
 
-Download automated build from public Docker Hub Registry: docker pull kdelfour/cloud9-docker
+Download automated build from public Docker Hub Registry: docker pull mallond/cloud9
 
-(alternatively, you can build an image from Dockerfile: docker build -t="kdelfour/cloud9-docker" github.com/kdelfour/cloud9-docker)
+(alternatively, you can build an image from Dockerfile: docker build -t="mallond/cloud9" github.com/mallond/cloud9-docker)
 
 ## Usage
 
